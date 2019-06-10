@@ -8,5 +8,10 @@
     "test": "node *.test.js"
   },
   "author": "Wichai Termwuttipreecha",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/Chengings/arabic-to-roman-numeral",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chengings/arabic-to-roman-numeral.git"
+  }
 }
