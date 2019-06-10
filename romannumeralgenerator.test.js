@@ -1,38 +1,37 @@
 'use strict'
 
 const assert = require('assert')
-const romanNumeralGenerator = require('./romannumeralgenerator.js')
- 
+const RomanNumeralGenerator = require('./romannumeralgenerator.js')
 
-const romanConverter = new romanNumeralGenerator()
+const romanConverter = new RomanNumeralGenerator()
 
 // Test invalid values
 assert.throws(
-    () => {
-        romanConverter.generate(4000)
-    },
-    Error
+  () => {
+    romanConverter.generate(4000)
+  },
+  Error
 )
 
 assert.throws(
-    () => {
-        romanConverter.generate(0)
-    },
-    Error
+  () => {
+    romanConverter.generate(0)
+  },
+  Error
 )
 
 assert.throws(
-    () => {
-        romanConverter.generate(1.9999999)
-    },
-    Error
+  () => {
+    romanConverter.generate(1.9999999)
+  },
+  Error
 )
 
 assert.throws(
-    () => {
-        romanConverter.generate('This is non numeric value');
-    },
-    Error
+  () => {
+    romanConverter.generate('This is non numeric value')
+  },
+  Error
 )
 
 // Test vaid values
