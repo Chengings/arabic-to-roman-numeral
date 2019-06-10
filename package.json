@@ -1,0 +1,12 @@
+{
+  "name": "roman-numerals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node index.js",
+    "test": "node *.test.js"
+  },
+  "author": "Wichai Termwuttipreecha",
+  "license": "ISC"
+}
