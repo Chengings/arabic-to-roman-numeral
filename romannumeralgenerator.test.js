@@ -34,7 +34,7 @@ assert.throws(
   Error
 )
 
-// Test vaid values
+// Test valid values
 assert.strictEqual(romanConverter.generate(1), 'I')
 assert.strictEqual(romanConverter.generate(2), 'II')
 assert.strictEqual(romanConverter.generate(3), 'III')
